@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Collector</title>
+    <LINK rel="stylesheet" href="stylesheet.css"></LINK>
+    <script src="script.js"></script>
+</head>
+<body>
+<header>
+    <h2>Let's Know about each other....!</h2>
+</header>
+<article>
+    <h3 class="formhead"></h3>
+
+    <form title="Not necessary to answer all the questions " action="https://formspree.io/f/mbjwgjer" method="post" autocomplete="on">
+    <div class="fullname">
+        <label for="fname"> FullName : </label>
+        <input type="text" id="fname" placeholder="Your Name" name="fullname"> <br>
+    </div>
+    <div class="dofb">
+        <label for="dob">Birth Day And Time:</label>
+        <input type="datetime-local" id="dob" name="dateofbirth"> <br>
+    </div>
+    <div class="nickname">
+        <label for="nikname">NickName : </label>
+        <input type="text" id=nikname name="nickname">
+    </div>
+    <div class="hobby">
+        <label for="urhobby">Hobby : </label>
+        <input type="text" id=urhobby name="hobby" placeholder="Playing">
+     </div>
+    <div class="favcolor">
+        <label for="urcolor">Favoritecolor : </label>
+        <input type="color" id=urcolor name="favoritecolor" value=rgb(14, 223, 91,0.8) >
+    </div>
+    <div class="status">
+        <label for="urstatus">Current Statue : </label>
+        <select name="currentstatus" id="urstatus">
+            <option value="Single">Single</option>
+            <option value="Committed">committed</option>
+            <option value="Onesided">One-Sided</option>
+            <option value="Break-Up">Break-Up</option>
+          </select>
+    </div>
+    <div class="favdish">
+        <label for="urdish">Favorite Dish : </label>
+        <input type="text" id=urdish placeholder="Your Favorite Dish" name="favouritedish">
+    </div>
+    <div class="favmovie">
+        <label for="urmovie">Favorite Movie : </label>
+        <input type="text" id=urmovie placeholder="Your Favorite Movie" name="favoritemovie">
+    </div>
+    <div class="favactor">
+        <label for="uractor">Favorite Actor : </label>
+        <input type="text" id=uractor placeholder="Your Favorite Actor" name="favoritemovie">
+    </div>
+    <div class="petname">
+        <label for="mypet">Pet Name :</label>
+        <input type="text" id="petname" placeholder="Your Pet Name" name="petname">
+    </div>
+    <div class="favsong">
+        <label for="ursinger">Favorite Song : </label>
+        <input type="text" id=ursong placeholder="Your Favorite Song" name="favoritesong">
+    </div>
+    <div class="favsinger">
+        <label for="ursinger">Favorite Singer : </label>
+        <input type="text" id=ursinger placeholder="Your Favorite Singer" name="favoritsinger">
+    </div>
+    
+    <div class="finish">
+        <input type="checkbox" value="Good" id="aboutthis" name="aboutthis">
+        <label for="aboutthis">I like this page</label>
+    </div>
+    <div class="summit">
+        <input type="submit" value="SUBMIT">
+    </div>
+    </form>
+    
+    
+
+
+</article>
+
+</body>
+</html>
